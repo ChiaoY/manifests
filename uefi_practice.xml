@@ -3,6 +3,6 @@
   <!-- Remote repositories definition -->
   <remote name="chiaoy" fetch="/https://github.com/ChiaoY"/>
   <!-- edk2-->
-  <project remote="chiaoy" name="edk2" path="edk2" reivsion="master"/>
+  <project remote="chiaoy" name="edk2" path="edk2" revision="master"/>
 
 </manifest>
