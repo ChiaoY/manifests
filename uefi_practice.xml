@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Remote repositories definition -->
-  <remote name="chiaoy" fetch="/https://github.com/ChiaoY"/>
+  <remote name="chiaoy" fetch="https://github.com/ChiaoY"/>
   <!-- edk2-->
   <project remote="chiaoy" name="edk2" path="edk2" revision="master"/>
 
