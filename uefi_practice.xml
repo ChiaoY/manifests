@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Host dependent common settings -->
-  <!-- UEFI based Google tools-->
+  <!-- Remote repositories definition -->
+  <remote name="chiaoy" fetch="/https://github.com/ChiaoY"/>
+  <!-- edk2-->
   <project name="edk2" path="edk2" />
 
 </manifest>
