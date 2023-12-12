@@ -3,12 +3,12 @@
 // Copyright (C) 2023 Savoir-faire Linux, Inc.
 // SPDX-License-Identifier: CC-BY-4.0
 
-= Repository manifest
+## Repository manifest
 
 This repository contains an XML manifest for `repo`, the multiple git repository
 tool.
 
-== Using repo to checkout your system code
+## Using repo to checkout your system code
 
 The following commands will allow you to checkout a working set of repositories
 to build the system:
@@ -36,7 +36,7 @@ $ repo sync
 The system's repositories will then be checked out in the current directory at
 the paths and revisions expressed in the xml file.
 
-== Why repo ?
+## Why repo ?
 
 The system we are building is split into several Git repositories, each of them
 containing a specific set of files for a specific function.
@@ -46,7 +46,7 @@ revision, which is compatible with each other's repository specific revision.
 This can be a tedious task to do and require manual repetition, and
 that's where `repo` comes in handy.
 
-== Installing repo on your system
+## Installing repo on your system
 
 The `repo` tool can be installed on Linux using your distro's package manager:
 
