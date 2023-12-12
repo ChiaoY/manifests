@@ -6,7 +6,7 @@
   <project remote="chiaoy" name="edk2" path="edk2" revision="master"/>
 
   <!-- ChiaoY private repos-->
-  <project remote="chiaoy" name="build-edk2" path="scripts/build_edk2" revision="main" /
+  <project remote="chiaoy" name="build-edk2" path="scripts/build_edk2" revision="main" />
   <project remote="chiaoy" name="qemu-scripts" path="scripts/qemu_scripts" revision="main"/>
 
 </manifest>
