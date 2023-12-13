@@ -6,8 +6,9 @@
 <manifest>
   <!-- Remote repositories definition -->
   <remote name="chiaoy" fetch="https://github.com/ChiaoY"/>
+  
   <!-- edk2-->
-  <project remote="chiaoy" name="edk2" path="edk2" revision="master"/>
+  <project remote="chiaoy" name="edk2" path="edk2" revision="refs/heads/master"/>
 
   <!-- ChiaoY private repos-->
   <project remote="chiaoy" name="build-edk2" path="scripts/build_edk2" revision="main" />
