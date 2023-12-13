@@ -16,8 +16,8 @@
   <project remote="tianocore" name="edk2-platforms" path="edk2-platforms" revision="master" />
   <project remote="google" name="brotli" path="edk2/MdeModulePkg/Library/BrotliCustomDecompressLib/brotli" revision="master" />
   <project remote="openssl" name="openssl" path="edk2/CryptoPkg/Library/OpensslLib/openssl" revision="master" /> <!-- refs/tags/OpenSSL_1_1_1g -->
-  <project remote="tianocore" name="third_party/cmocka" path="edk2/UnitTestFrameworkPkg/Library/CmockaLib/cmocka" revision="master" />
-  <project remote="kkos" name="third_party/oniguruma" path="edk2/MdeModulePkg/Universal/RegularExpressionDxe/oniguruma" revision="master" />
+  <project remote="tianocore" name="cmocka" path="edk2/UnitTestFrameworkPkg/Library/CmockaLib/cmocka" revision="master" />
+  <project remote="kkos" name="oniguruma" path="edk2/MdeModulePkg/Universal/RegularExpressionDxe/oniguruma" revision="master" />
 
   <!-- ChiaoY private repos-->
   <project remote="chiaoy" name="build-edk2" path="scripts/build_edk2" revision="main"/>
