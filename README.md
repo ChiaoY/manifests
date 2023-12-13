@@ -15,21 +15,21 @@ to build the system:
 
 ```
 # Use a work directory for your project
-$ mkdir seapath
-$ cd seapath/
+$ mkdir example_proj
+$ cd example_proj/
 ```
 
 Next checkout repositories using the repo-manifest:
 
 ```
-$ repo init -u "https://github.com/seapath/repo-manifest.git"
+$ repo init -u "https://github.com/ChiaoY/manifests"
 $ repo sync
 ```
 
-To checkout the dunfell version:
+To checkout the example proj:
 
 ```
-$ repo init -u "https://github.com/seapath/repo-manifest.git" -m dunfell.xml
+$ repo init -u "https://github.com/ChiaoY/manifests" -m example.xml -b main
 $ repo sync
 ```
 
