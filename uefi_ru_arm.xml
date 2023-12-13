@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Project to implement RU functions with AARCH 64
+  QEMU 8.2 or newer version should be used. 
+ -->
+<manifest>
+  <!-- Remote repositories definition -->
+  <remote name="chiaoy" fetch="https://github.com/ChiaoY"/>
+  
+  <!-- edk2-->
+  <project remote="chiaoy" name="edk2" path="edk2" revision="refs/heads/master"/>
+
+  <!-- ChiaoY private repos-->
+  <project remote="chiaoy" name="build-edk2" path="scripts/build_edk2" revision="main"/>
+  <project remote="chiaoy" name="qemu-scripts" path="scripts/qemu_scripts" revision="main"/>
+  <project remote="chiaoy" name="ru-arm" path="edk2/RuApp revision="main"/>
+
+</manifest>
