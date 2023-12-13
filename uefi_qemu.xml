@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  This is the template manifest for UEFI development with QEMU.
+  QEMU 8.2 or newer version should be used. 
+ -->
 <manifest>
   <!-- Remote repositories definition -->
   <remote name="chiaoy" fetch="https://github.com/ChiaoY"/>
